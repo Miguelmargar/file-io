@@ -1,6 +1,6 @@
 #to read a file's data
 # ONE WAY -----------------------------------------
-f = open("data.txt", "r")                # opens file
+f = open("data.txt", "r")                # opens file to read it with "r"
 lines = f.readlines()                    # stores the file info in lines variable therefore in memory
 f.close()                                # closes the file but it is still stored in memory
 print(lines)
